@@ -1,0 +1,44 @@
+#skills {
+    margin-top: 32px;
+}
+
+.skill-container {
+    position: relative;
+    float: left;
+
+    left: 0px;
+    margin-left: 0px;
+    height: 100px;
+    width: 25%;
+    padding-top: 25%;
+}
+
+#skill-1 {
+    background-color: rgb(70, 185, 185);
+}
+
+#skill-2 {
+    background-color: rgb(95, 175, 101);
+}
+
+#skill-3 {
+    background-color: rgb(211, 76, 76);
+}
+
+#skill-4 {
+    background-color: rgb(193, 235, 80);
+}
+
+.skill-name {
+    /* position: absolute;
+    margin: 0px;
+    text-align: center;
+    top: 41px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 32px;
+    width: 88px;
+    margin: -16px 0 0 -44px;
+    font-size: 32px;
+}
