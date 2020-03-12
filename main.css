@@ -1,3 +1,5 @@
+/* main.css ma odpowiadać za właściwości stałe dla całego dokumentu oraz za nawigację */
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -7,6 +9,15 @@
 body {
     margin: 0px;
     
+}
+
+.naglowek {
+    text-align: center;
+    font-family: Arial;
+    font-size: 32px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
 }
 
 ul#navigation-bar {
@@ -27,7 +38,6 @@ li a {
     padding: 20px;
 
     font-size: 20px;
-    color: black;
     text-decoration: none;
 
     border-style: solid;

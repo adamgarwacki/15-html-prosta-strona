@@ -1,0 +1,26 @@
+/* portfolio.css odpowiada za sekcję "portfolio" */
+#portfolio {
+    margin-top: 25%;
+
+    width: 50%;
+    margin-left: 25%;
+}
+
+.portfolio-element {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    border-style: solid;
+    border-width: 20px;
+}
+
+div p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 25%;
+    width: 80%;
+    margin: -12.5% 0 0 -40%;
+    text-align: justify;
+}

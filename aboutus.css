@@ -1,3 +1,5 @@
+/* about.css odpowiada za sekcję "about" */
+
 h1 {
     margin: 0px;
 }
@@ -9,5 +11,9 @@ h1 {
     padding: 10px;
     padding-left: 16px;
 
-    font-size: 200%;
+    text-align: justify;
+}
+
+#about-text {
+    font-size: 150%;
 }

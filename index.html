@@ -8,21 +8,23 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="aboutus.css">
     <link rel="stylesheet" href="skill.css">
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
+    <!-- ponieważ w wielu miejscach trzeba było zastosować oddzielne kolory dla poszczególnych elementów, użyłem atrybutów style -->
     <section>
         <nav>
             <ul id="navigation-bar">
-                <li><a href="#about-us">About us</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about-us" style="color: rgb(105, 202, 170);">About us</a></li>
+                <li><a href="#skills" style="color: rgb(110, 223, 110);">Skills</a></li>
+                <li><a href="#portfolio" style="color: rgb(209, 84, 188);">Portfolio</a></li>
+                <li><a href="#contact" style="color: rgb(89, 111, 209);">Contact</a></li>
             </ul>
         </nav>
     </section>
     <section id="about-us">
-        <h1>About us:</h1>
-        <p>
+        <h1 class="naglowek">About us:</h1>
+        <p id="about-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, eius corrupti. Dolorem explicabo fugit unde? Qui, quasi autem, laborum quisquam assumenda corrupti, nulla reiciendis deleniti corporis nesciunt voluptatem adipisci inventore?
         </p>
     </section>
@@ -41,20 +43,30 @@
         </div>
     </section>
     <section id="portfolio">
-        <h1>Portfolio:</h1>
-        <!-- dodać kolorową ramkę -->
         <div>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestiae minima, amet porro atque tempora quasi esse, sint, quisquam sapiente libero aperiam expedita corrupti sed repudiandae fuga a. Soluta, provident.
-        </div>
-        <div>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sed autem exercitationem quas perspiciatis ducimus eveniet esse! Iure mollitia esse, porro maxime nemo error tempore voluptatibus. Expedita veniam facere numquam!
-        </div>
-        <div>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate impedit voluptatem pariatur quasi repellendus vero sint eveniet, ducimus voluptates quia, aperiam repudiandae distinctio sed autem, beatae illum corporis eos quibusdam.
-        </div>    
+            <h1 class="naglowek">Portfolio:</h1>
+            <div class="portfolio-element" style="border-color: red;">
+                <p>
+                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestiae minima, amet porro atque tempora quasi esse, sint, quisquam sapiente libero aperiam expedita corrupti sed repudiandae fuga a. Soluta, provident. <br>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. In saepe blanditiis nobis, accusantium laudantium dolorum tempore enim ratione suscipit temporibus, sint deleniti corporis quisquam iste. Amet deleniti laboriosam placeat explicabo?
+                </p>
+            </div>
+            <div class="portfolio-element" style="border-color: yellow;">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sed autem exercitationem quas perspiciatis ducimus eveniet esse! Iure mollitia esse, porro maxime nemo error tempore voluptatibus. Expedita veniam facere numquam! <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum porro optio ut consequuntur provident similique. Quia amet similique nihil ab provident magnam laudantium pariatur, doloremque ipsum, blanditiis odio, in voluptates.
+                </p>
+            </div>
+            <div class="portfolio-element" style="border-color: darkblue;">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate impedit voluptatem pariatur quasi repellendus vero sint eveniet, ducimus voluptates quia, aperiam repudiandae distinctio sed autem, beatae illum corporis eos quibusdam. <br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias inventore odit nisi voluptate sapiente, velit, asperiores similique, impedit cumque doloribus iusto quae quis fugit ex voluptatibus! Placeat, nisi doloremque! Est!
+                </p>
+            </div> 
+        </div>   
     </section>
     <section id="contact">
-        <h1>Adam Garwacki</h1>
+        <h1 class="naglowek">Adam Garwacki</h1>
         <address>
             Author: Adam Garwacki<br>
             adam.garwacki@gmail.com<br>
