@@ -1,0 +1,25 @@
+/* contact.css odpowiada za sekcję "conatct" */
+
+#contact {
+    margin-bottom: 16px;
+}
+
+address {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#contact-us {
+    text-align: center;
+}
+
+form {
+    width: 40%;
+    margin-left: 30%;
+    box-align: center;
+}
+
+input {
+    width: 100%;
+}

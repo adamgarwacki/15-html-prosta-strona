@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="aboutus.css">
     <link rel="stylesheet" href="skill.css">
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <!-- ponieważ w wielu miejscach trzeba było zastosować oddzielne kolory dla poszczególnych elementów, użyłem atrybutów style -->
@@ -68,16 +69,15 @@
     <section id="contact">
         <h1 class="naglowek">Adam Garwacki</h1>
         <address>
-            Author: Adam Garwacki<br>
             adam.garwacki@gmail.com<br>
             ul. Przykładowa 1, m. 123<br>
-            01-234 Warsaw
+            01-234 Warszawa
         </address>
-        <h3>Contact us:</h3>
+        <h3 id="contact-us">Contact us:</h3>
         <form>
-            <input type="text" value="Your name..." name="name" id="name"><br>
-            <input type="text" value="Topic..." name="topic" id="topic"><br>
-            <input type="text" value="Your message..." name="message" id="message">
+            <input type="text" value="Your name..." name="name" id="name" required><br>
+            <input type="text" value="Topic..." name="topic" id="topic" required><br>
+            <input type="text" value="Your message..." name="message" id="message" required>
         </form>
     </section>
 </body>
