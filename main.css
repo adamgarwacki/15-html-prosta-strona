@@ -1,8 +1,18 @@
 /* main.css ma odpowiadać za właściwości stałe dla całego dokumentu oraz za nawigację */
+/* 
+Używanie remów i emów:
+em-y są zależne od wcześniej zadanego font-size
+rem-y są niezależne od wcześniej zadanego font-size (od wartości root-a: defaultowo 16px)
+
+zmiana roota:
+
+:root {
+    font-size: 32px;
+}
+*/
 
 body {
     margin: 0px;
-    
 }
 
 .naglowek {
@@ -15,8 +25,10 @@ body {
 }
 
 ul#navigation-bar {
-    list-style-type: none;
     display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style-type: none;
     margin: 10px;
     margin-left: 0px;
     padding: 10px;
@@ -24,22 +36,23 @@ ul#navigation-bar {
 }
 
 li {
-    display: list-item;
-}
-
-li a {
-    margin-right: 10px;
+    display: block;
+    flex-grow: 1;
+    
     padding: 20px;
-
-    font-size: 20px;
-    text-decoration: none;
-
+    
     border-style: solid;
     border-width: 2px;
     border-color: black;
 }
 
-li a:hover {
+li a {
+    padding-left: 50%;
+
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li:hover {
     background-color: black;
-  color: white;
 }
